@@ -28,3 +28,24 @@ The `SecureCRT/` directory contains top-tier, precision-tuned keyword highlighti
    - Check **Enable keyword highlighting**.
    - Select the newly imported list from the **Keyword list** dropdown.
    - Click **OK** to apply.
+
+### Getting the "Easy on the Eyes" Dark Theme Background
+
+If you are looking for a dark, charcoal-gray background that is easy on the eyes (similar to standard dark mode IDE themes or dark terminal themes), you need to adjust your terminal appearance settings:
+
+1. **Open Appearance Settings:**
+   - Go to **Options** > **Global Options** (to set it for all sessions) or **Session Options** (to set it for the current session).
+   - Navigate to **Terminal** > **Appearance**.
+
+2. **Select or Create a Color Scheme:**
+   - Under the **Color scheme** dropdown, look for schemes like **Solarized Dark**, **Dark**, or **One Dark**.
+   - If the built-in dark schemes aren't exactly what you want, you can create a custom one:
+     - Click the **New...** button next to the Color scheme dropdown.
+     - Name it something like "Charcoal Theme".
+     - Click **Edit...**.
+     - In the Color Scheme Editor, click on the **Background** color box.
+     - Pick a dark gray/charcoal color. A good custom RGB value to try is Red: `40`, Green: `44`, Blue: `52` (or Hex `#282C34`).
+     - Click **OK** and ensure your text (Foreground) color is set to white or light gray.
+
+3. **Ensure ANSI Color is Enabled:**
+   - Make sure **Use color** (or **ANSI color**) is checked in the Appearance settings so that the green, cyan, and other colored text output properly renders against your dark background.
